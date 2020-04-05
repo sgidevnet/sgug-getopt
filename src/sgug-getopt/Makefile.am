@@ -3,6 +3,10 @@ NULL=
 bin_PROGRAMS=getopt
 
 getopt_SOURCES=				\
+	c.h				\
+	closestream.h			\
+	nls.h				\
+	xalloc.h			\
 	getopt.c			\
 	$(NULL)
 
