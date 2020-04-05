@@ -44,6 +44,9 @@
  *  backslash problem in tcsh
  */
 
+#include "config.h"
+#include "getopt.h"
+
 /* Exit codes:
  *   0) No errors, successful operation.
  *   1) getopt(3) returned an error.

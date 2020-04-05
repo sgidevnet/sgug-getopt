@@ -12,6 +12,7 @@ AM_CFLAGS=				\
 
 getopt_LDADD=				\
 	$(DICL_DEPS_LIBS)		\
+	$(LTLIBINTL)			\
 	$(NULL)
 
 CLEANFILES=						\
